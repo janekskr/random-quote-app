@@ -60,8 +60,9 @@ function App() {
       </a>
       <button id="new-quote" onClick={fetchData} style={{backgroundColor: bg}}>
         New quote
-      </button>
+      </button> 
       </div>
+      <a href="https://github.com/janekskr/" style={{color: bg}} id="repo-link">Link to github repo</a>
     </div>
     </div>
   );
