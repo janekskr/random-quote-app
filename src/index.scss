@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Lexend", sans-serif;
+    transition: .5s;
+}
+
+html, body, #root {
+    height: 100%
+}
+
+html {
+    font-size: 20px;
+}
+
+body {
+    overflow: hidden;
+
+    .wrapper {
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        #quote-box {
+            width: 600px;
+            padding: 40px;
+            border-radius: 10px ;
+            background: white;
+    
+            #text {
+                text-align: center;
+                font-size: 25px;
+                letter-spacing: .7px;
+            }
+    
+            #author {
+                font-style: italic;
+                text-align: right;
+                margin: 20px 0;
+                font-size: 18px;
+            }
+    
+            div {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+    
+                #new-quote {
+                    outline: none;
+                    padding: 10px;
+                    border:none;
+                    border-radius: 5px;
+                    color: white;
+                    font-size: 18px;
+                    cursor: pointer;
+                }
+                :hover {
+                    scale: 1.1;
+                }
+
+                #tweet-quote {
+                    color: white;
+                    text-decoration: none;
+                    padding: 10px;
+                    border-radius: 5px;
+                }
+            }
+        }
+    }
+}
